@@ -1,0 +1,24 @@
+{
+  "name": "@atirip/ptemplayed",
+  "description": "Fork of https://github.com/archan937/templayed.js",
+  "version": "1.0.0",
+  "main": "ptemplayed.js",
+  "author": "Priit Pirita <atirip@yahoo.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atirip/ptemplayed.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "layout"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/atirip/ptemplayed/issues"
+  },
+  "homepage": "https://github.com/atirip/ptemplayed#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
