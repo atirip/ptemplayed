@@ -40,7 +40,8 @@
 
 		var inc = 0
 
-		return new Function("vars", 'vars = [vars], s = "' + block(template.replace(/"/g, '\\"').replace(/\n/g, '\\n')) + '"; return s;');
+		return new Function("vars", 'vars = [vars]; var s = "' + block(template.replace(/"/g, '\\"').replace(/\n/g, '\\n')) + '"; return s;');
+
 	}
 
 	if (typeof define === 'function' && define.amd) {
